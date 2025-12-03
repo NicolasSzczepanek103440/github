@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>De Ziekte Indentificatie App</h1>
+    <br>
+
+    <h3>Wat is uw naam en leeftijd?</h3>
+    <label for="naam">Wat is uw naam?</label><br>
+    <input id="naam" name="naam"><br>
+    <br>
+
+    <label for="leeftijd">Wat is uw leeftijd?</label><br>
+    <input id="leeftijd" name="leeftijd"><br><br>
+
+    <h3><label for="symptoom1">Wat zijn uw symptomen?</label></h3>
+    <label for="symptoom1">Uw eerste symptoom</label><br>
+    <input id="symptoom1" name="symptoom1"><br>
+    <br>
+
+    <label for="symptoom2">Uw tweede symptoom</label><br>
+    <input id="symptoom2" name="symptoom2"><br>
+    <br>
+
+    <label for="symptoom3">Uw derde symptoom</label><br>
+    <input id="symptoom3" name="symptoom3"><br>
+    <br>
+
+    <label for="symptoom4">Uw vierde symptoom</label><br>
+    <select id="symptoom4" name="symptoom4">
+        <option></option>
+        <option>kortademheid</option>
+        <option>duizeligheid</option>
+        <option>geheugenverlies</option>
+        <option>pijn</option>
+    </select><br>
+    <br>
+    <label for="symptoom5">Uw vijfde symptoom</label><br>
+    <select id="symptoom5" name="symptoom5">
+        <option></option>
+        <option>kortademheid</option>
+        <option>duizeligheid</option>
+        <option>geheugenverlies</option>
+        <option>pijn</option>
+    </select><br>
+    <br>
+
+    <input type="button" value="Inleveren" onclick="inleveren()">
+</body>
+</html>
